@@ -1,0 +1,386 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: "Open Sans",sans-serif;
+}
+
+#Main{
+    
+}
+
+#heading{
+    
+}
+#heading .slider{
+    width: 100%;
+    position: relative;
+    padding-top: 50%;
+    background: url('./img/slider.jpg') top center / cover no-repeat;
+    
+
+}
+
+.slider .icon{
+    position: absolute;
+    bottom: 25%;
+    width: 87%;
+    text-align: center;
+} 
+
+.slider .text-slider{
+    position: absolute;
+    color: #fff;
+    top: 17%;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    
+    
+}
+.slider h1{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: tinos;
+}
+
+.slider .text-discorection{
+    font-size: 24px;
+    color: #333;
+    font-family: tinos;
+}
+
+.slider .btn-click{
+    font-size: 14px;
+    background-color: #3D9BE9;; 
+    padding: 0 30px;
+    display: inline-block;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 5px;
+    
+    
+}
+.slider .btn-click a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.slider .contact-info{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 80px;
+    
+    
+}
+.slider .contact-info p{
+    
+}
+
+.slider .contact-btn{
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+.slider .slider-icon{
+    font-size: 30px;
+    color: #fff;
+    padding-right: 15px;
+}
+
+#content .content-gioithieu{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 170px;
+    padding-right: 170px;
+    
+}
+#content .content-gioithieu-item{
+    
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.3;
+    font-weight: 600;
+    
+}
+#content .content-gioithieu h1{
+    color: #000;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: tinos;
+}
+
+#content .content-text-dicorection{
+    color: #000;
+    font-size: 16px;
+    font-family: "Open Sans";
+    padding-bottom: 32px;
+
+}
+#content .line{
+    border-top: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgba(144,164,174,1);
+    width: 20%;
+    padding-top: 32px;
+}
+
+#content .content-text-noidung{
+    font-size: 13px;
+    color: #333;
+}
+
+#content .content-img-gt{
+    padding-top: 75px;
+}
+
+#content .content-lydo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: rgba(245,245,245,1);
+}
+
+#content .content-lydo h1{
+    padding-top: 70px;
+    color: #333;
+    font-size: 30px;
+    padding-bottom: 10px;
+    font-family: tinos;
+    line-height: 1.2;
+    font-weight: 500;
+    
+}
+
+#content .content-lydo p{
+    font-family: tinos;
+    font-size: 16px;
+}
+
+.content-lydo .content-ndung-lydo{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 166px;
+    padding-right: 166px;
+    text-align: justify;
+    padding-top: 70px;
+    
+}
+
+.content-lydo .themanh{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    
+    
+}
+
+.content-lydo .content-icon{
+    font-size: 36px;
+    color: #333;
+    
+}
+
+.content-lydo h4{
+    font-size: 18px;
+    padding-top: 15px;
+    font-family: tinos;
+}
+
+.content-lydo .themanh p{
+    font-size: 13px;
+    padding-top: 15px;
+    color: #333;
+}
+
+.content-sanpham{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    padding-left: 170px;
+    padding-right: 170px;
+    
+    
+}
+
+
+#content .content-sanpham h1{
+    font-family: tinos;
+    color: #333;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+#content .content-sanpham .sp{
+    font-family: tinos;
+    font-size: 16px;
+    margin-left: 13%;
+    margin-right: 13%;
+    text-align: center;
+    padding-top: 16px;
+   
+}
+#content .sanpham p{
+    
+    color: #616161;
+    font-size: 13px;
+    text-align: center;
+    font-family: "Open Sans",sans-serif;
+    padding-top: 16px;
+    
+    line-height: 1.3;
+}
+
+.content-sanpham .sanpham h4{
+    font-family: tinos;
+    padding-top: 16px;
+    font-size: 18px;
+    color: rgba(84,110,122,1);
+}
+.content-sanpham .sanpham{
+    display: flex;
+    padding-top: 80px;
+    
+    
+}
+
+.content-sanpham .sanpham-item{
+    padding-left: 30px;
+    padding-right: 36px;
+}
+
+.content-sanpham .gia-sanpham-btn{
+    font-size: 16px;
+    border-color: rgba(84,110,122,1);
+    color:  rgba(84,110,122,1);
+    border-style: solid;
+    padding: 6px 30px;
+    display: inline-block;
+    margin-top: 35px;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    line-height: 20px;
+    
+    
+}
+.content-dangky{
+    text-align: center;
+    background-color: rgba(38,50,56,0.85);
+    padding-bottom: 60px;
+    
+    
+}
+.content-dangky h1{
+    font-family: tinos;
+    font-size: 24px;
+    padding-top: 70px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 28px;
+    
+}
+.content-dangky p{
+        padding-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+        color: rgba(176,190,197,1);
+}
+.content-dangky .dangky-btn{
+    font-size: 14px;
+    background-color: #607d8b; 
+    
+    padding: 14px 48px;
+    display: inline-block;
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 14px;
+    margin-top: 54px;
+}
+
+.content-dangky .dangky-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-cmt{
+    text-align: center;
+    padding-top: 70px;
+    font-family: "Open Sans";
+}
+
+.content-cmt .cmt-imgname{
+    
+    
+
+}
+
+.content-cmt .cmt-imgname img{
+    border-radius: 110px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(238,238,238,1);
+    width:164px;
+     height:164px;
+    
+}
+.content-cmt .cmt{
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 26%;
+    
+    color: rgba(66,66,66,1);
+    margin-top: 18px;
+    margin-bottom: 36px;
+}
+.content-cmt h4{
+    color: rgba(66,66,66,1);
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+.content-cmt .cv{
+    font-size: 12px;
+    color: rgba(66,66,66,1);
+}
+
+#footer{
+    margin-top: 70px;
+    padding: 64px 16px;
+    text-align: center;
+    background-color: rgba(38,50,56,1);
+}
+
+#footer p{
+    color: #607D8B;
+}
+
+#footer .social-list
+{
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+#footer .social-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    color: #607D8B;
+}
